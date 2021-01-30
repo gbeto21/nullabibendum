@@ -7,12 +7,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route path="/nullabibeundum" component={NullaBibeundum} />
-        <Route path="/:id" component={ItemDetails} />
-        <Route path="/" exact component={Home} />
-      </Switch>
-      <header className="App-header"></header>
+      <header className="App-header">
+        <Switch>
+          <Route path="/nullabibeundum" component={NullaBibeundum} />
+          <Route path="/:id" component={ItemDetails} />
+          <Route path="/" exact component={Home} />
+        </Switch>
+      </header>
     </div>
   );
 }
