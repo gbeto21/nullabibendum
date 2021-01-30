@@ -6,14 +6,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Switch>
-          <Route path="/nullabibeundum" component={NullaBibeundum} />
-          <Route path="/:id" component={ItemDetails} />
-          <Route path="/" exact component={Home} />
-        </Switch>
-      </header>
+    <div>
+      <Switch>
+        <Route path="/nullabibeundum" component={NullaBibeundum} />
+        <Route path="/:id" component={ItemDetails} />
+        <Route path="/" exact component={Home} />
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,8 @@
+.carouselContainer {
+  flex-grow: 1;
+  /* border: midnightblue 1px solid; */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}

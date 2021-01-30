@@ -1,0 +1,9 @@
+.mainButton {
+  margin-top: 12rem;
+  background-color: gray;
+  color: white;
+  height: 4rem;
+  width: 13rem;
+  font-size: 1.6rem;
+  border-radius: 0.7rem;
+}
