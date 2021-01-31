@@ -45,3 +45,17 @@
     font-weight: 95;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .titleHome {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 0;
+  }
+
+  .subTitle {
+    font-size: 1.7rem;
+    font-weight: 95;
+    margin-bottom: -3rem;
+  }
+}
