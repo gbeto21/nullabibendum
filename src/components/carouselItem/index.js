@@ -9,7 +9,7 @@ const CarouselItem = ({ movie, imageSource }) => {
         <img alt="" src={imageSource} className="imageItem" />
         <div className="detailContainer">
           <h1>{movie.title}</h1>
-          <h3>{movie.content}</h3>
+          <p>{movie.content}</p>
         </div>
       </Link>
     </div>

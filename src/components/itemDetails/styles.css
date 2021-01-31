@@ -1,0 +1,19 @@
+.itemDetailsContainer {
+  position: absolute;
+  color: whitesmoke;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin: 5rem 4rem;
+}
+
+.video {
+  margin: 2rem 0rem 10rem 25rem;
+}
+
+.content {
+  font-size: 1.5rem;
+  margin: 2rem 5rem;
+  max-width: 45rem;
+}
