@@ -32,3 +32,16 @@
     font-weight: 100;
   }
 }
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .titleHome {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 0;
+  }
+
+  .subTitle {
+    font-size: 1.7rem;
+    font-weight: 95;
+  }
+}

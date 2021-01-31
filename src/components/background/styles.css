@@ -17,3 +17,10 @@
     width: 470vh;
   }
 }
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .backgroundImageContainer {
+    width: 300vh;
+    height: 300vh;
+  }
+}
