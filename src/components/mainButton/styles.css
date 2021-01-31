@@ -7,3 +7,8 @@
   font-size: 1.6rem;
   border-radius: 0.7rem;
 }
+
+.linkStyle {
+  color: inherit;
+  text-decoration: none;
+}
