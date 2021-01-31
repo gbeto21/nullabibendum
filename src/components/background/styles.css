@@ -31,3 +31,10 @@
     height: 220vh;
   }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .backgroundImageContainer {
+    width: 240vh;
+    height: 240vh;
+  }
+}
