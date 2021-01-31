@@ -8,7 +8,7 @@ class Home extends React.Component {
     return (
       <div className="mainContainer">
         <div>
-          <h1 className="title">Lorem Ipsum.</h1>
+          <h1 className="titleHome">Lorem Ipsum.</h1>
           <h4 className="subTitle">Consectetur adipiscing elit</h4>
         </div>
         <div>

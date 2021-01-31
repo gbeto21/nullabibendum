@@ -9,12 +9,26 @@
   justify-content: flex-start;
 }
 
-.title {
-  font-size: 6rem;
+.titleHome {
+  font-size: 4rem;
   font-weight: 800;
+  margin-left: 0;
 }
 
 .subTitle {
   font-size: 2rem;
   font-weight: 100;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .titleHome {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-left: 0;
+  }
+
+  .subTitle {
+    font-size: 2rem;
+    font-weight: 100;
+  }
 }

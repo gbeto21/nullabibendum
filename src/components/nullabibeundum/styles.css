@@ -60,3 +60,35 @@
   transform: rotateX(-0.1deg);
   transform: rotateZ(-10deg);
 }
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .billboard1 {
+    margin: 5rem 0rem 0rem 72rem;
+    height: 19rem;
+    width: 10rem;
+    transform: rotateY(-1deg);
+  }
+
+  .billboard2 {
+    margin: 26rem 0rem 0rem 72rem;
+    height: 24rem;
+    width: 10rem;
+    transform: rotateY(-0.7deg);
+  }
+
+  .billboard3 {
+    margin: 52rem 0rem 0rem 70rem;
+    height: 26rem;
+    width: 14rem;
+    transform: rotateY(-0.1deg);
+  }
+
+  .billboard4 {
+    margin: 34rem 0rem 0rem 123rem;
+    height: 22rem;
+    width: 13.5rem;
+    transform: rotateY(-0.1deg);
+    transform: rotateX(-0.1deg);
+    transform: rotateZ(-10deg);
+  }
+}
