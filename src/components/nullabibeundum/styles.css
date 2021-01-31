@@ -1,0 +1,62 @@
+.backgroundImageContainer {
+  position: absolute;
+  overflow: hidden;
+}
+
+.imagesContainer {
+  position: relative;
+}
+
+.billboard1Container {
+  perspective: 2rem;
+  perspective-origin: bottom left;
+}
+
+.billboard2Container {
+  perspective: 2rem;
+  perspective-origin: bottom left;
+}
+
+.billboard3Container {
+  perspective: 2rem;
+  perspective-origin: bottom left;
+}
+
+.billboard4Container {
+  perspective: 2rem;
+  perspective-origin: bottom left;
+}
+
+.billboard {
+  position: absolute;
+}
+
+.billboard1 {
+  margin: 4rem 0rem 0rem 51rem;
+  height: 14rem;
+  width: 10rem;
+  transform: rotateY(-1deg);
+}
+
+.billboard2 {
+  margin: 18.6rem 0rem 0rem 51.6rem;
+  height: 19rem;
+  width: 10rem;
+  transform: rotateY(-0.7deg);
+}
+
+.billboard3 {
+  margin: 38.6rem 0rem 0rem 51.6rem;
+  height: 19rem;
+  width: 10rem;
+  transform: rotateY(-0.1deg);
+}
+
+.billboard4 {
+  margin: 25.4rem 0rem 0rem 92rem;
+  height: 15.4rem;
+  width: 10rem;
+  transform: rotateY(-0.1deg);
+  transform: rotateX(-0.1deg);
+  transform: rotateZ(-10deg);
+}
